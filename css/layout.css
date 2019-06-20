@@ -1,0 +1,229 @@
+/* for hidden elements */
+
+.top-header ul, .banner-form {
+  display: none;
+}
+
+/* header css begins */
+
+.fixed-width {
+  max-width: 69.25em;
+  margin: 0 10px;
+}
+
+.top-header {
+  line-height: 70px;
+}
+
+.top-header h1 {
+  float: left;
+}
+
+.top-header ul {
+  float: right;
+}
+
+.top-header ul li {
+  float: left;
+}
+
+.top-header a {
+  color: #b0b0b0;
+}
+
+/* header css ends */
+
+/* top banner css begins */
+
+.banner-wrapper {
+  height: 57.942238%;
+}
+
+.banner-img {
+  position: relative;
+}
+
+.banner {
+  position: absolute;
+  top:16.245487%;
+}
+
+.banner-text {
+  width: 100%;
+}
+
+.banner-text .banner-logo {
+  width: 20%;
+}
+
+.banner-text .title {
+  margin-top: 2.317689%;
+}
+
+.banner-text .description {
+  display: none;
+}
+
+.banner-text .btn .btn-transparent {
+  margin-top: 5.122274%;
+}
+/* banner css ends */
+
+/* social media css starts */
+
+
+@media(min-width: 410px) {
+  .banner-text .description {
+    display: block;
+    width: 94%;
+    margin-top:2.220216%;
+  }
+
+  .banner-text .btn .btn-transparent {
+    margin-top: 2.122274%;
+  }
+}
+
+
+@media (min-width: 480px) {
+  /* for display elements hidden in small devices */
+  .top-header ul {
+    display: block;
+  }
+}
+
+@media (min-width : 768px) {
+  /* for hidden element */
+  .btn-transparent.get-started {
+    display: none;
+  }
+
+  .fixed-width {
+    margin: 0 20px;
+  }
+
+  /* for show elements */
+  .banner-form {
+    display: block;
+  }
+
+  .banner-text .banner-logo {
+    width: 33.245487%;
+  }
+  
+  .banner-text .title {
+    margin-top: 6.317689%;
+  }
+
+  .banner-text {
+    width: 50%;
+    float: left;
+  }
+  
+  .banner-text .description {
+    margin-top:7.220216%;
+  }
+
+  .banner-text .btn .btn-transparent {
+    margin-top: 8.122274%;
+  }
+
+  .banner-form {
+    width: 50%;
+    float: right;
+  }
+
+  .banner-form form {
+    width:64.981949%;
+    text-align: center;
+    margin-left: 31.711191%;
+    margin-top: 5.270758%;
+  }
+
+  .banner-form .form-title {
+    width: 100%;
+    line-height: 55px;
+    background: #f5f5f5;
+    border-radius: 5px 5px 0 0;
+    
+    font-family: "Opensans",  sans-serif;
+    font-weight: 700;
+  }
+
+  .banner-form .form-input {
+    background: #fff;
+    padding-bottom: 2.5%;
+  }
+
+  .form-input .input-field {
+    border-bottom: 1px #c5c5c5 solid;
+    width: 90%;
+    margin:auto;
+  }
+
+  .banner-form input {
+    width: 90%;
+    margin-top: 10.531111%;
+  }
+
+  .submit {
+    background: #ff9b51;
+    border-radius: 0 0 5px 5px;
+  }
+
+  .submit input {
+    width:100%;
+    color: #fff;
+    margin: auto 0;
+    line-height: 55px;
+    
+    font-family: "Opensans", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .submit input:hover {
+    color: #c5c5c5;
+  }
+}
+
+@media (min-width : 1108px)  {
+  .fixed-width {
+    margin: 0 auto;
+  }
+
+  .banner {
+    left: 13.370059%;
+  }
+
+  .banner-form form {
+    font-size: 20px;
+    margin-top: 11.270758%;
+  }
+
+  .banner-form .form-input {
+    padding-bottom: 12.5%;
+  }
+
+  .form-input .input-field {
+    width: 75%;
+  }
+
+  .banner-form input {
+    margin-top: 14.531111%;
+  }
+
+  .input-field.password {
+    margin-top: 11.111111%;
+  }
+
+  .submit input {
+    margin-top:0;
+  }
+}
+
+/* common styles */
+.text-emphasis {
+  color: #ff8b38;
+}
