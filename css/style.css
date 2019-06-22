@@ -1,7 +1,7 @@
 /* header css begins*/
 
-.header {
-  background-color: #000000;
+.header, .footer-wrapper {
+  background-color: #000;
 }
 
 .top-header ul li {
@@ -16,7 +16,7 @@
 .banner-text .title {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 10px;/*should be maintained */
   color:#fff;
 }
 
@@ -152,4 +152,12 @@
 /* common styles */
 .text-emphasis {
   color: #ff8b38;
+}
+
+.emphasis {
+  background-color: #ff8b38;
+}
+
+.emphasis:empty {
+  height: 5px;
 }
