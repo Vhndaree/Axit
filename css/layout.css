@@ -1,6 +1,6 @@
 /* for hidden elements */
 
-.top-header ul, .banner-form {
+.top-header ul, .banner-form, .stylish-axure-wrapper {
   display: none;
 }
 
@@ -351,6 +351,7 @@
   background-color: #333;
   color: #fff;
   margin-bottom: 2px;
+  text-transform: uppercase;
 }
 
 .amount {
@@ -393,6 +394,7 @@
   text-align: center;
   line-height: 40px;
   text-transform: uppercase;
+  color: #fff;
 }
 
 .prices-wrapper ul li {
@@ -410,15 +412,19 @@
 
 /* customers say */
 
+.customers-say-bottom {
+  width: 90%;
+  margin: 0 auto;
+}
+
 .customers-review-wrapper {
   margin-top: 10.054151%;
 }
 
 .customers-review {
-  width: 85%;
+  width: 100%;
   background-image: url("../assets/customer_say_bcg.png");
   background-repeat: no-repeat;
-  background-size: center;
   height: 150px;
 }
 
@@ -440,7 +446,7 @@
 .customer-detail {
   float: right;
   width: 72%;
-  margin-top: 20px;
+  margin-top: 12px;
 }
 
 .customer-detail .name {
@@ -462,46 +468,41 @@
 
 /* customers say end */
 
-/* contact us form styles */
+/* contact us */
+
 .contact-us-form {
-  margin: 20px 0;
-}
-
-.left-fields input, .right-fields textarea {  
-  display: block;
-  width: 90%;
-  margin: 10px auto;
-  padding: 5px 15px;
-  border: none;
-  background: transparent;
-  color: #bdbdbd;
-  border-bottom: 1px #d6d6d6 solid;
-  resize: none;
-
-  font-family: "Opensans", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-}
-
-.submit {
   display: inline-block;
-  background: #ff8b38;
-  border-radius: 5px;
+  text-align: center;
+  border: 2px #d6d6d6 solid;
+  border-radius: 10px;
+  margin-top: 10px;
 }
 
-.submit input{
-  line-height: 38px;
-  font-family: "Opensans", sans-serif;
-  font-weight: 600;
-  font-size: 14px;
+.form-input-text input, .form-input-textarea textarea {
+  width: 90%;
   border: none;
+  border-bottom: 2px #d6d6d6 solid;
+  color: #d6d6d6;
   background: transparent;
-  text-align: center;
-  padding: 5px;
+  padding: 5px 0;
+  margin: 10px auto;
+  resize: none;
+  font-family: "Opensans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
 
+.submit-form input[type=submit] {
+  border: none;
+  background-color: #ff9b51;
+  margin-bottom: 10px;
+  line-height: 38px;
+  border-radius: 5px;
+  padding: 0 25px;
 }
 
 /* footer */
+
 .footer {
   padding: 10px 0;
   text-align: center;
@@ -509,6 +510,12 @@
 
 .footer, .footer a {
   color: #808080;
+}
+
+.copy-right {
+  font-family: "Opensans", sans-serif;
+  font-size: 8px;
+  font-weight: 400;
 }
 
 @media (min-width: 600px) {
@@ -584,8 +591,7 @@
     width: 100%;
     margin-top: 5px;
   }
-
-  .social-media-wrapper .social-media, .footer .social-media {
+  .social-media-wrapper .social-media {
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -688,6 +694,10 @@
   }
   /* pricing option styles ends */
   /* customers say */
+  .customers-say-bottom {
+    width: 99%;
+    margin: 0 auto;
+  }
   .customers-review-wrapper {
     float: left;
     width: 32%;
@@ -697,23 +707,108 @@
   .customers-review {
     width: 100%;
   }
-  .customers-say-title::after {
+  .customers-say-title::after, .contact-us-title::after {
     width: 5%;
   }
   .customer {
     width: 100%;
-    margin-left:15px;
+    margin-left: 15px;
   }
   .customer img {
-    width: 25%;
+    width: 20%;
   }
   .customer-detail {
     float: right;
-    width: 67%;
-    margin-top: 10px;
+    width: 77%;
+    margin-top: 12px;
   }
-  
-
+  /* stylish axure */
+  /* stylish axure */
+  .stylish-axure-wrapper {
+    display: block;
+  }
+  .stylish-axure-relative {
+    position: relative;
+  }
+  .stylish-axure-relative .stylish-axure {
+    position: absolute;
+    width: 100%;
+    top: 15%;
+    left: 45%;
+    transform: translate(-50%);
+  }
+  .stylish-axure-title {
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    /*36*/
+    text-transform: uppercase;
+  }
+  .stylish-axure-title::after {
+    content: "";
+    display: block;
+    border-bottom: 2px #fff solid;
+    width: 10%;
+    margin-top: 2.123456%;
+    margin-bottom: 2.123456%;
+    margin-left: 45%;
+  }
+  .stylish-axure-subtitle {
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    /*16*/
+  }
+  .stylish-axure-btn {
+    display: inline-block;
+    margin-left: 43%;
+    border: 2px white solid;
+    margin-top: 2%/*10.123456%*/
+    ;
+    margin-bottom: 2.123456%;
+  }
+  .stylish-axure-btn a {
+    display: inline-block;
+    color: #fff;
+    font-family: "Opensans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 40px;
+    padding: 0 20px;
+  }
+  .stylish-axure-btn:hover {
+    background: #fff;
+  }
+  .stylish-axure-btn:hover a {
+    color: #000;
+  }
+  /* contact us */
+  .contact-us-form {
+    border: none;
+    width: 100%;
+  }
+  .form-input-text {
+    width: 50%;
+    float: left;
+  }
+  .form-input-textarea {
+    width: 50%;
+    float: right;
+  }
+  .form-input-textarea textarea {
+    height: 113px;
+  }
+  .submit-form {
+    display: inline-block;
+    width: 100%;
+    margin-top: 40px;
+  }
   .footer .social-media ul {
     width: 30%;
   }
@@ -804,5 +899,31 @@
   }
   .pricing-option-title::after {
     width: 5%;
+  }
+  /* customers say */
+  .customers-say-bottom {
+    margin-left: 6.67148%;
+  }
+  /* stylish axure */
+  .stylish-axure-relative .stylish-axure {
+    left: 50%;
+  }
+  .stylish-axure-title {
+    font-size: 36px;
+  }
+  .stylish-axure-title::after {
+    width: 5%;
+    margin-left: 47%;
+  }
+  .stylish-axure-subtitle {
+    font-size: 16px;
+  }
+  .stylish-axure-btn {
+    display: inline-block;
+    margin-left: 45%;
+    margin-top: 5.123456%;
+  }
+  .copy-right {
+    font-size: 10px;
   }
 }
