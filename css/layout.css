@@ -57,9 +57,9 @@
   position: absolute;
   /* top: 14.245487%; */
     width: 100%;
-    top: 15%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%);
+    transform: translate(-50%, -50%);
 }
 
 .banner-text {
@@ -103,7 +103,7 @@
 .social-media ul li {
   width: 7%;
   float: left;
-  margin-left: 6.057971%;
+  margin-left: 6.857971%;
 }
 
 .social-media ul li:hover {
@@ -246,11 +246,9 @@
 }
 
 .sublist-info .image {
-  border: 2px #ff8b38 solid;
   width: 10%;
   padding: 10px;
-  margin-top: 20px;
-  border-radius: 50%;
+  margin-top: 8px;
   float: left;
 }
 
@@ -366,7 +364,6 @@
   text-align: center;
   background-color: #333;
   color: #fff;
-  margin-bottom: 1px;
 }
 
 .amount .dollar {
@@ -556,7 +553,7 @@
     display: block;
   }
   .banner-text .banner-logo {
-    width: 33.245487%;
+    width: 32.490974%;
   }
   .banner-text .title {
     margin-top: 6.317689%;
@@ -829,6 +826,7 @@
     left: 13.370059%;
   }
   .banner-form form {
+    float: right;
     font-size: 20px;
     margin-top: 11.270758%;
   }
