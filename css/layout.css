@@ -45,14 +45,21 @@
 /* header css ends */
 
 /* top banner css begins */
+.banner-wrapper {
+  display: block;
+}
 
-.banner-img {
+.banner-wrapper-relative {
   position: relative;
 }
 
-.banner {
+.banner-wrapper-relative .banner {
   position: absolute;
-  top: 14.245487%;
+  /* top: 14.245487%; */
+    width: 100%;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .banner-text {
@@ -722,7 +729,6 @@
     width: 77%;
     margin-top: 12px;
   }
-  /* stylish axure */
   /* stylish axure */
   .stylish-axure-wrapper {
     display: block;
