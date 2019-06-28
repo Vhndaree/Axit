@@ -433,10 +433,9 @@
 }
 
 .customers-review p {
-  padding: 15px 10px;
-  width: 200px;
+  padding: 15px;
+  width: 250px;
 }
-
 .customer {
   width: 100%
 }
@@ -499,6 +498,7 @@
 .submit-form input[type=submit] {
   border: none;
   background-color: #ff9b51;
+  color: #fff;
   margin-bottom: 10px;
   line-height: 38px;
   border-radius: 5px;
