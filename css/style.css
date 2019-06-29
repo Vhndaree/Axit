@@ -67,6 +67,199 @@
   color: #000;
 }
 
+.social-media-wrapper, .sublist-wrapper, .customers-say-wrapper, .contact-us-wrapper {
+  background-color: #fff;
+}
+
+.social-media ul li:hover {
+  border: 1px solid black;
+}
+
+.tabs-wrapper, .standard-picture-wrapper, .pricing-option-wrapper {
+  background-color: #f5f5f5;
+}
+
+.tabs ul li.active, .tabs ul li:hover {
+  background-color: #ff8b38;
+}
+
+.tab-description-text .tab-description-title {
+  font-family: "Opensans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.tabs ul li a {
+  font-family: "Opensans", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #fff;
+}
+
+.tab-description-text .tab-description-body p {
+  font-family: "Opensans", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+
+.tab-description-text .btn .btn-filled {
+  display: inline-block;
+  text-align: center;
+  background: #ff8b38;
+  border-radius: 5px;
+}
+
+.sublist-info-title {
+  display: block;
+  font-family: "Opensans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+.sublist-title, .standard-picture-title {
+  display: block;
+  font-family: "Opensans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.sublist-title::after, .standard-picture-title::after {
+  content: "";
+  display: block;
+  border-bottom: 2px #ff8b38 solid;
+  width: 20%;
+  margin-top: 2.123456%;
+  margin-bottom: 2.123456%;
+}
+
+.sublist-info-detail {
+  display: block;
+  font-family: "Opensans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.this-awesome-title, .pricing-option-title, .customers-say-title, .contact-us-title {
+  display: block;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.this-awesome-subtitle, .pricing-option-subtitle, .customers-say-subtitle, .contact-us-subtitle {
+  display: block;
+  font-family: "Opensans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+.this-awesome-bottom-display .topic {
+  display: block;
+  text-align: center;
+  font-family: "Opensans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.this-awesome-bottom-display p {
+  text-align: center;
+  font-family: "Opensans", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.prices .topic {
+  display: block;
+  font-family: "Opensans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  line-height: 60px;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #333;
+  margin-bottom: 2px;
+}
+
+.amount .dollar {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.amount .figure {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 94px;
+}
+
+.membership {
+  display: block;
+  font-family: "Opensans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  line-height: 50px;
+  text-transform: capitalize;
+  background-color: #333;
+  color: #fff;
+}
+
+.extra {
+  display: block;
+  font-family: "Opensans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.prices-wrapper ul li {
+  font-family: "Opensans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #fff;
+  border-bottom: 1px #f5f5f5 solid;
+  text-transform: uppercase;
+}
+
+.customers-say-bottom {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.customers-review-wrapper {
+  margin-top: 10.054151%;
+}
+
+.customer-detail .name {
+  display: block;
+  font-family: "Opensans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.customer-detail .post {
+  display: block;
+  font-family: "Opensans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: capitalize;
+  margin-top: 5px;
+}
 @media (min-width: 480px) {
   .top-header ul li:last-child {
     padding-right: 0;
