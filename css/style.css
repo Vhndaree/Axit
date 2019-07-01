@@ -4,22 +4,40 @@
   background-color: #000;
 }
 
-.top-header ul li {
+.top-header ul li, .dropdown-menu {
   font-family: "OpenSans", sans-serif;
   font-size: 14px;
   font-weight: 600;
-  padding-right: 30px;
+  width: 98px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.dropdown-menu {
+  padding-right: 0;
+}
+
+.top-header ul li a:hover {
+  color: #000;
+  background: #ff8b38
+}
+
+.drop-down-svg {
+  fill: #fff;
+}
+
+.drop-down-burger-menu:hover .drop-down-svg {
+  fill: #ff8b38;
 }
 
 /* header css ends */
 
 /* top banner css begins */
 
-.banner-text .title {
+.banner-text h2 {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 10px;
-  /*should be maintained */
   color: #fff;
 }
 
@@ -27,22 +45,23 @@
   content: "";
   display: block;
   border-bottom: 1px white solid;
-  width: 11.552346%;
+  width: 12.552346%;
   height: 2px;
-  margin-top: 2.220216%;
+  margin-top: 5.122274%;
 }
 
 .banner-text .description {
   font-family: "Raleway", sans-serif;
   font-weight: 300;
-  font-size: 12px;
-  color: #fff;
+  font-size: 11px;
+  color: #bababa;
 }
 
-.btn {
+.btn a, .btn button {
   font-family: "OpenSans", sans-serif;
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
 }
 
 .btn-transparent {
@@ -51,11 +70,13 @@
   text-align: center;
 }
 
-.btn-transparent a {
+.btn-transparent a, .btn-transparent button {
+  background: transparent;
+  border: none;
   display: inline-block;
   color: #fff;
   padding: 0 30px;
-  line-height: 38px;
+  line-height: 40px;
 }
 
 .btn-transparent:hover {
@@ -63,16 +84,69 @@
   color: #000;
 }
 
-.btn-transparent:hover a {
+.btn-transparent:hover a, .btn-transparent:hover button {
   color: #000;
 }
+
+.banner-form .form-title {
+  width: 100%;
+  line-height: 55px;
+  background: #f5f5f5;
+  border-radius: 5px 5px 0 0;
+  font-family: "Opensans", sans-serif;
+  font-weight: 700;
+}
+
+.banner-form input {
+  font-family: "Opensans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  background: transparent;
+  border: none;
+}
+
+.banner-form .submit input {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  line-height: 55px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.submit {
+  background: #ff9b51;
+  border-radius: 0 0 5px 5px;
+}
+
+/* social media */
 
 .social-media-wrapper, .sublist-wrapper, .customers-say-wrapper, .contact-us-wrapper {
   background-color: #fff;
 }
 
-.social-media ul li:hover {
-  border: 1px solid black;
+.social-media-text .social-media-title {
+  font-family: "Opensans", sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.social-media-text p {
+  font-family: "Opensans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 10px;
+  color: #86878b;
+}
+
+.social-media ul li .svg {
+  fill: #cccccc;
+}
+
+.social-media ul li:hover .svg {
+  fill: #ff8b38;
 }
 
 .tabs-wrapper, .standard-picture-wrapper, .pricing-option-wrapper {
@@ -99,9 +173,11 @@
 .tab-description-text .tab-description-body p {
   font-family: "Opensans", sans-serif;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 22px;
+  margin-top: 25px;
   margin-bottom: 25px;
+  color: #86878b;
 }
 
 .tab-description-text .btn .btn-filled {
@@ -111,12 +187,23 @@
   border-radius: 5px;
 }
 
+.tab-description-text .btn .btn-filled:hover a, .submit:hover input {
+  background-color: #f2700f;
+  border-radius: inherit;
+}
+
+.submit-form input:hover {
+  background-color: #f2700f;
+  border-radius: 5px;
+}
+
 .sublist-info-title {
   display: block;
   font-family: "Opensans", sans-serif;
   font-weight: 600;
   font-size: 14px;
 }
+
 .sublist-title, .standard-picture-title {
   display: block;
   font-family: "Opensans", sans-serif;
@@ -128,9 +215,6 @@
   content: "";
   display: block;
   border-bottom: 2px #ff8b38 solid;
-  width: 20%;
-  margin-top: 2.123456%;
-  margin-bottom: 2.123456%;
 }
 
 .sublist-info-detail {
@@ -156,6 +240,7 @@
   font-weight: 400;
   font-size: 14px;
   text-align: center;
+  color: #86878b;
 }
 
 .this-awesome-bottom-display .topic {
@@ -165,6 +250,7 @@
   font-weight: 700;
   font-size: 20px;
   margin-top: 20px;
+  text-transform: capitalize;
 }
 
 .this-awesome-bottom-display p {
@@ -174,6 +260,7 @@
   line-height: 20px;
   font-size: 14px;
   margin-top: 20px;
+  color: #86878b;
 }
 
 .prices .topic {
@@ -210,7 +297,8 @@
   line-height: 50px;
   text-transform: capitalize;
   background-color: #333;
-  color: #fff;
+  color: #86878b;
+  font-style: italic;
 }
 
 .extra {
@@ -233,15 +321,25 @@
   background-color: #fff;
   border-bottom: 1px #f5f5f5 solid;
   text-transform: uppercase;
+  color: #86878b;
 }
 
 .customers-say-bottom {
-  width: 90%;
+  width: 280px;
   margin: 0 auto;
 }
 
 .customers-review-wrapper {
-  margin-top: 10.054151%;
+  margin-top: 5.054151%;
+}
+
+.customers-review p {
+  font-family: "Opensans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-style: italic;
+  color: #86878b;
 }
 
 .customer-detail .name {
@@ -259,17 +357,19 @@
   font-size: 14px;
   text-transform: capitalize;
   margin-top: 5px;
+  color: #86878b;
 }
+
 @media (min-width: 480px) {
   .top-header ul li:last-child {
     padding-right: 0;
   }
-  .top-header ul li a {
-    padding: 0 1.796407%;
-  }
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
+  .banner-text h2 {
+    font-size: 24px;
+  }
   .banner-form .form-title {
     width: 100%;
     line-height: 55px;
@@ -285,29 +385,25 @@
     background: transparent;
     border: none;
   }
-  .banner-text .title::after {
-    margin-top: 7.220216%;
+  .banner-text .title::after, .banner-text .description {
+    margin-top: 5.317689%;
   }
-  .submit {
-    background: #ff9b51;
-    border-radius: 0 0 5px 5px;
+  /* Tabs styles */
+  .tab-description-text .tab-description-title {
+    font-size: 20px;
   }
-  .submit input {
+  .tab-description-text .tab-description-body p {
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+  /* customer say */
+  .customers-say-bottom {
     width: 100%;
-    color: #fff;
-    margin: auto 0;
-    line-height: 55px;
-    font-family: "Opensans", sans-serif;
-    font-weight: 600;
-    font-size: 15px;
-    cursor: pointer;
-  }
-  .submit input:hover {
-    color: #c5c5c5;
   }
 }
 
-@media (min-width: 1108px) {
+@media only screen and (min-width: 1108px) {
   /* banner */
   .banner-text .title {
     font-size: 36px;
@@ -319,16 +415,17 @@
   }
   /* social media */
   .social-media-text .social-media-title {
-    font-family: "Opensans", sans-serif;
-    font-weight: 600;
     font-size: 20px;
   }
   .social-media-text p {
-    font-family: "Opensans", sans-serif;
-    font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    margin-top: 12px;
+  }
+  .tab-description-text .tab-description-body p {
+    font-size: 14px;
+  }
+  .this-awesome-title, .pricing-option-title, .customers-say-title, .contact-us-title {
+    font-size: 36px;
   }
 }
 
@@ -344,4 +441,8 @@
 
 .emphasis:empty {
   height: 5px;
+}
+
+::placeholder {
+  color: #8b8989;
 }
