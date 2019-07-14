@@ -1,0 +1,42 @@
+/* common or helper styles */
+
+.fixed-width {
+  max-width: 69.25em;
+}
+
+.top-bottom-gap {
+  padding: 9.476534% 0;
+}
+
+.text-emphasis {
+  color: #ff8b38;
+}
+
+.emphasis {
+  background-color: #ff8b38;
+}
+
+.emphasis:empty {
+  height: 5px;
+}
+
+::placeholder {
+  color: #8b8989;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+.clear-fix:after {
+  content: "";
+  display: block;
+  clear: both;
+  height:0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}

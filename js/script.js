@@ -12,7 +12,7 @@ crossBar.onclick = function () {
 }
 
 
-// for banner form 
+// for banner form for phone popup on click
 var getStarted = document.getElementById('get-started');
 var bannerForm = document.getElementById('banner-form');
 var formCrossBar = document.getElementById('cross-bar-form');

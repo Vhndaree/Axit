@@ -50,20 +50,3 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-img {
-    height: auto;
-    width: 100%;
-}
-
-.clear-fix:after {
-    content: "";
-    display: block;
-    clear: both;
-    height:0;
-}
-
-a {
-    text-decoration: none;
-    color: #000;
-}
