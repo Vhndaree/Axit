@@ -1,4 +1,4 @@
 # Axit
 
 Design Assignment
-Written in core html and css
+Written in core html, css2 and vanilla JS.
